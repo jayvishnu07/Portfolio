@@ -31,7 +31,7 @@ const Projects = () => {
               trigger: el1,
               start: "top 80%",
               end: "top 30%",
-              scrub: 1,
+              scrub: 3,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
               markers: {
@@ -54,7 +54,7 @@ const Projects = () => {
               trigger: el2,
               start: "top 80%",
               end: "top 30%",
-              scrub: 1,
+              scrub: 3,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
               markers: {

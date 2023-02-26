@@ -1,13 +1,14 @@
 import Typewriter from 'typewriter-effect';
-import About from './pages/About/About';
+// import About from './pages/About/About';
 import './App.css';
 import Navbar from './pages/Navbar/Navbar';
-import Contact from './pages/Contact/Contact';
+// import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 
 import image from './assets/images/profile-image.png'
 import gsap, { Power3 } from 'gsap';
 import { useEffect } from 'react';
+import Education from './pages/Education/Education';
 
 function App() {
 
@@ -44,14 +45,13 @@ function App() {
         </div>
       
         <div className="frontpage-image">
-          <img id='cartoon-img' src={image} alt=" image"  />
+          <img id='cartoon-img' src={image} alt="image"  />
         </div>
       </div>
 
-
-
-
         <Projects />
+
+        <Education />
       </div>
     </>
   );
