@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects-main-div {
+    width: 100vw;
+    height: 200vh;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #212121; */
+    flex-wrap: wrap;
+    /* border-top-right-radius: 20% ;
+    border-top-left-radius:20% ; */
+}
+
+.projects-i-d-wrapper {
+    width: 80vw;
+    height: 70vh;
+    background: #212121;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.projects-image-div {
+    width: 50%;
+    aspect-ratio: 2;
+    margin: 0 2rem 0 2rem;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.projects-image-div img{
+    width: 100%;
+}
+
+.projects-details-div {
+    width: 50%;
+    aspect-ratio: 2;
+    margin: 0 2rem 0 2rem;
+    background: rgba(255, 255, 255, 0.07);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.projects-details-div button {
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    margin: 40px 0 0 0;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.projects-details-div button:hover {
+    background-color: #fff;
+    color: black;
+    transition: .4s;
+}
+
+.live-btn{
+    background-color: aqua;
+}

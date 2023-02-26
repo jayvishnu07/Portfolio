@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-main-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(45, 45, 45);
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.contact-details-div {
+    width: 20%;
+    aspect-ratio: 1;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px); 
+     
+
+}
+
+.selected-contact-details-div{
+    width: 40%;
+    aspect-ratio: 1;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px); 
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+
+.selected-contact-div-close-btn{
+    background-color: red;
+    width: 20px;
+    aspect-ratio: 1;
+}
