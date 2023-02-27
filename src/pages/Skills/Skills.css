@@ -1,11 +1,235 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.skills-main-div{
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
-    color: red;
+
+.main-div {
+  height: 100vh;
+  width: 100vw;
+  z-index: 9;
+  display: flex;
+}
+
+.left {
+  /* background-color: blue; */
+  flex: 60%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skill-content-wrapper {
+  background-color: #fff;
+  width: 80%;
+  height: 10%;
+  margin: 1rem 0 1rem 0;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.progress-bar-track {
+  background-color: #fff;
+  width: 90%;
+  height: 20%;
+  margin: .5rem 0 0 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.progress-bar1 {
+  width: 75%;
+  height: 100%;
+  background-color: brown;
+}
+
+.progress-bar2 {
+  width: 65%;
+  height: 100%;
+  background-color: brown;
+}
+
+.progress-bar3 {
+  width: 65%;
+  height: 100%;
+  background-color: brown;
+}
+
+.progress-bar4 {
+  width: 70%;
+  height: 100%;
+  background-color: brown;
+}
+
+.progress-bar5 {
+  width: 65%;
+  height: 100%;
+  background-color: brown;
+}
+
+.progress-bar6 {
+  width: 45%;
+  height: 100%;
+  background-color: brown;
+}
+
+.right {
+  flex: 40%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.container1 {
+  margin: 2vw 4vw 4vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container2 {
+  margin: 2vw 1vw 4vw 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container3 {
+  margin: 2vw 4vw 4vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container4 {
+  margin: 2vw 1vw 4vw 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.language {
+  margin: 20px;
+  font-weight: 500;
+}
+
+#number {
+  font-weight: 500;
+}
+
+.outer-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.circle-clicked1 {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: anime1 1s linear forwards;
+}
+
+.circle-clicked2 {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: anime2 1s linear forwards;
+}
+
+.circle-clicked3 {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: anime3 1s linear forwards;
+}
+
+.circle-clicked4 {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: anime4 1s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes anime1 {
+  100% {
+    stroke-dashoffset: 132;
+  }
+}
+
+@keyframes anime2 {
+  100% {
+    stroke-dashoffset: 154;
+  }
+}
+
+@keyframes anime3 {
+  100% {
+    stroke-dashoffset: 198;
+  }
+}
+
+@keyframes anime4 {
+  100% {
+    stroke-dashoffset: 198;
+  }
 }

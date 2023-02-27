@@ -30,8 +30,8 @@ const Education = () => {
         scrollTrigger: {
           trigger: el1,
           start: "top 200%",
-          stop: "top  160%",
-          scrub: 1,
+          stop: "top  190%",
+          scrub: 3,
           toggleActions: "restart none none none ",
           // markers: {
           //   startColor: "green",
@@ -41,7 +41,7 @@ const Education = () => {
           // }
         }
       })
-    gsap.fromTo(el2, { x: 1500, opacity: 0, scale: 0.6 },
+    gsap.fromTo(el2, { x: 900, opacity: 0, scale: 0.6 },
       {
         x: 0,
         opacity: 1,
@@ -49,8 +49,8 @@ const Education = () => {
         scrollTrigger: {
           trigger: el2,
           start: "top 200%",
-          stop: "top  160%",
-          scrub: 1,
+          stop: "top  190%",
+          scrub: 3,
           toggleActions: "restart none none none ",
           // markers: {
           //   startColor: "green",
@@ -60,16 +60,16 @@ const Education = () => {
           // }
         }
       })
-    gsap.fromTo(el3, { x: 1500, opacity: 0, scale: 0.6 },
+    gsap.fromTo(el3, { x: 600, opacity: 0, scale: 0.6 },
       {
         x: 0,
         opacity: 1,
         scale: 1,
         scrollTrigger: {
           trigger: el3,
-          start: "top 200%",
-          stop: "top  160%",
-          scrub: 1,
+          start: "top 210%",
+          stop: "top  200%",
+          scrub: 3,
           toggleActions: "restart none none none ",
           // markers: {
           //   startColor: "green",
@@ -86,36 +86,44 @@ const Education = () => {
   return (
     <div className='education-main-div' id='education'  >
 
-      <div className="education-content">
-        <div className="box1" ref={box1} >
-          <h4>UnderGraduate : &emsp;</h4>
-          <p>Bannari Amman Institute Of
-            Technology (2020-2024)
-            <b>&emsp;  CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
+      <div className="edu-wrapper">
+        <div className="edu-line">
+          <div className="line-circle"></div>
+          <div className="line-circle"></div>
+          <div className="line-circle"></div>
         </div>
 
-
-        <div className="box2" ref={box2} >
-          <h4>Higher Secondary : &ensp;</h4>
-          <p>Bannari Amman Vidya Niketan,
-            Matriculation Higher Secondary
-            School (2018-2020)
-            &emsp;
-            <b>Percentage : &ensp;</b> 83.67%</p>
-        </div>
+        <div className="education-content">
+          <div className="box1" ref={box1} >
+            <h4>UnderGraduate : &emsp;</h4>
+            <p>Bannari Amman Institute Of
+              Technology (2020-2024)
+              <b>&emsp;  CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
+          </div>
 
 
-        <div className="box3" ref={box3} >
-          <h4>SSLC : &emsp;</h4>
-          <p>Bharathi Matriculation school
-            Year of Passing: 2018
-            &emsp;
-            <b>Percentage: &emsp;</b>90.8%
-          </p>
-        </div>
+          <div className="box2" ref={box2} >
+            <h4>Higher Secondary : &ensp;</h4>
+            <p>Bannari Amman Vidya Niketan,
+              Matriculation Higher Secondary
+              School (2018-2020)
+              &emsp;
+              <b>Percentage : &ensp;</b> 83.67%</p>
+          </div>
 
-        <div className="circle-education">
-          <img src={educationCartoon} alt="education" />
+
+          <div className="box3" ref={box3} >
+            <h4>SSLC : &emsp;</h4>
+            <p>Bharathi Matriculation school
+              Year of Passing: 2018
+              &emsp;
+              <b>Percentage: &emsp;</b>90.8%
+            </p>
+          </div>
+
+          <div className="circle-education">
+            <img src={educationCartoon} alt="education" />
+          </div>
         </div>
       </div>
 
