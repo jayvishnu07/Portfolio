@@ -3,12 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Montserrat;
-  /* border: 1px solid red; */
+}
 
-}
-*::-webkit-scrollbar {
-  display: none;
-}
 
 .App {
   background-color: #F5F5F5;
@@ -17,68 +13,3 @@
 }
 
 
-
-.front-main-div {
-  width: 100vw;
-  height: 100vh;
-  /* background-color: #3B4047; */
-  background-color: #212121;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-right-radius: 65%;
-  /* border-bottom-left-radius: 20%; */
-}
-
-.frontpage-details-div {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.frontpage-image {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#cartoon-img {
-  width: 70%;
-  aspect-ratio: 1;
-
-}
-
-
-#welcome-title {
-  color: #fff;
-  margin: 0 0 30px 0;
-  font-size: 1.5rem;
-}
-
-.typewriter {
-  color: #fff;
-  font-size: 2rem;
-}
-
-#get-started-button {
-  padding: 15px 25px 15px 25px;
-  border-radius: 30px;
-  margin: 40px 0 0 0;
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  outline: none;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-#get-started-button:hover {
-  background-color: #fff;
-  color: black;
-  transition: .4s;
-}

@@ -34,12 +34,12 @@ const Projects = () => {
               scrub: 3,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
-              markers: {
-                startColor: "green",
-                endColor: "red",
-                fontSize: "2rem",
-                indent: 100
-              }
+              // markers: {
+              //   startColor: "green",
+              //   endColor: "red",
+              //   fontSize: "2rem",
+              //   indent: 100
+              // }
             }
           })
         const el2 = square2.current;
@@ -57,12 +57,12 @@ const Projects = () => {
               scrub: 3,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
-              markers: {
-                startColor: "green",
-                endColor: "red",
-                fontSize: "2rem",
-                indent: 100
-              }
+              // markers: {
+              //   startColor: "green",
+              //   endColor: "red",
+              //   fontSize: "2rem",
+              //   indent: 100
+              // }
             }
           })
         const el3 = square3.current;
@@ -79,12 +79,12 @@ const Projects = () => {
               scrub: 1,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
-              markers: {
-                startColor: "green",
-                endColor: "red",
-                fontSize: "2rem",
-                indent: 100
-              }
+              // markers: {
+              //   startColor: "green",
+              //   endColor: "red",
+              //   fontSize: "2rem",
+              //   indent: 100
+              // }
             }
           })
         const el4 = square4.current;
@@ -102,12 +102,12 @@ const Projects = () => {
               scrub: 1,
               toggleActions: "restart none none none ",
               //play pause resume reverse restart reset complete none
-              markers: {
-                startColor: "green",
-                endColor: "red",
-                fontSize: "2rem",
-                indent: 100
-              }
+              // markers: {
+              //   startColor: "green",
+              //   endColor: "red",
+              //   fontSize: "2rem",
+              //   indent: 100
+              // }
             }
           })
     
@@ -115,7 +115,7 @@ const Projects = () => {
       }, [])
 
     return (
-        <div className='projects-main-div' >
+        <div className='projects-main-div' id='projects'  >
 
             {/* Chat Application */}
             <div className="projects-i-d-wrapper">
@@ -179,7 +179,7 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
-
+            <div className="circle-project"></div>
         
         
 

@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import './Navbar.css'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { HashLink } from 'react-router-hash-link';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,11 +23,11 @@ const Navbar = ({ timeline, ease }) => {
     <div className='navbar-main-div' ref={navRef} >
       <nav>
         <ul className='nav-ul' >
-          <li>Contact</li>
-          <li>Education</li>
-          <li>Projects Done</li>
-          <li>Skills</li>
-          <li>Personal Info</li>
+          <li><HashLink smooth to='/#projects' className='nav-item' >Projects Done </HashLink> </li>
+          <li><HashLink smooth to='/#education' className='nav-item' >Education </HashLink> </li>
+          <li><HashLink smooth to='/#skills' className='nav-item' >Skills </HashLink> </li>
+          <li><HashLink smooth to='/#personal_info' className='nav-item' >Personal Info </HashLink> </li>
+          <li><HashLink smooth to='/#contact' className='nav-item' >Contact </HashLink> </li>
         </ul>
       </nav>
     </div>

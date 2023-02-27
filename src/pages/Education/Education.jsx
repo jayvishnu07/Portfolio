@@ -1,5 +1,5 @@
 import React from 'react'
-import education from '../../assets/images/education.png'
+import educationCartoon from '../../assets/images/education-cartoon.png'
 import "./Education.css"
 
 import { gsap } from 'gsap'
@@ -11,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Education = () => {
 
   const box1 = useRef(null)
+
   const box2 = useRef(null)
   const box3 = useRef(null)
   const vid = useRef(null)
@@ -32,12 +33,12 @@ const Education = () => {
           stop: "top  160%",
           scrub: 1,
           toggleActions: "restart none none none ",
-          markers: {
-            startColor: "green",
-            endColor: "red",
-            fontSize: "2rem",
-            indent: 100
-          }
+          // markers: {
+          //   startColor: "green",
+          //   endColor: "red",
+          //   fontSize: "2rem",
+          //   indent: 100
+          // }
         }
       })
     gsap.fromTo(el2, { x: 1500, opacity: 0, scale: 0.6 },
@@ -51,12 +52,12 @@ const Education = () => {
           stop: "top  160%",
           scrub: 1,
           toggleActions: "restart none none none ",
-          markers: {
-            startColor: "green",
-            endColor: "red",
-            fontSize: "2rem",
-            indent: 100
-          }
+          // markers: {
+          //   startColor: "green",
+          //   endColor: "red",
+          //   fontSize: "2rem",
+          //   indent: 100
+          // }
         }
       })
     gsap.fromTo(el3, { x: 1500, opacity: 0, scale: 0.6 },
@@ -67,15 +68,15 @@ const Education = () => {
         scrollTrigger: {
           trigger: el3,
           start: "top 200%",
-          stop: "top  140%",
+          stop: "top  160%",
           scrub: 1,
           toggleActions: "restart none none none ",
-          markers: {
-            startColor: "green",
-            endColor: "red",
-            fontSize: "2rem",
-            indent: 100
-          }
+          // markers: {
+          //   startColor: "green",
+          //   endColor: "red",
+          //   fontSize: "2rem",
+          //   indent: 100
+          // }
         }
       })
 
@@ -83,35 +84,39 @@ const Education = () => {
 
 
   return (
-    <div className='education-main-div' >
-      <img className='education-image' src={education} alt="education" />
+    <div className='education-main-div' id='education'  >
 
       <div className="education-content">
         <div className="box1" ref={box1} >
-          <h5>UnderGraduate</h5>
+          <h4>UnderGraduate : &emsp;</h4>
           <p>Bannari Amman Institute Of
             Technology (2020-2024)
-            <b>CGPA : 9.06</b> (Upto 5th semester)</p>
+            <b>&emsp;  CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
         </div>
 
 
         <div className="box2" ref={box2} >
-          <h5>Higher Secondary</h5>
+          <h4>Higher Secondary : &ensp;</h4>
           <p>Bannari Amman Vidya Niketan,
             Matriculation Higher Secondary
             School (2018-2020)
-            <b>Percentage : 83.67%</b></p>
+            &emsp;
+            <b>Percentage : &ensp;</b> 83.67%</p>
         </div>
 
 
         <div className="box3" ref={box3} >
-          <h5>SSLC</h5>
+          <h4>SSLC : &emsp;</h4>
           <p>Bharathi Matriculation school
             Year of Passing: 2018
-            <b>Percentage: 90.8%</b>
+            &emsp;
+            <b>Percentage: &emsp;</b>90.8%
           </p>
         </div>
 
+        <div className="circle-education">
+          <img src={educationCartoon} alt="education" />
+        </div>
       </div>
 
     </div>
