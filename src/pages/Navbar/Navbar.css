@@ -16,7 +16,6 @@
     top: 0;
     width: 100%;
     z-index: 100000;
-    /* border-bottom-left-radius: 10% ; */
 }
 
 
@@ -44,4 +43,36 @@ nav {
 .nav-item:hover {
     border-bottom: 2px solid brown;
     transition: .5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-main-div {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background: rgba(117, 98, 98, 0);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0.6px);
+        -webkit-backdrop-filter: blur(0.6px);
+        border-bottom: 1px solid rgba(208, 208, 208, 0.1);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100000;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-ul {
+        display: flex;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
 }

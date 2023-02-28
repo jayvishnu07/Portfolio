@@ -24,7 +24,7 @@ const Navbar = ({ timeline, ease }) => {
       <nav>
         <ul className='nav-ul' >
           <li><HashLink smooth to='/#home' className='nav-item' >Home </HashLink> </li>
-          <li><HashLink smooth to='/#projects' className='nav-item' >Projects Done </HashLink> </li>
+          <li><HashLink smooth to='/#projects' className='nav-item' >Projects </HashLink> </li>
           <li><HashLink smooth to='/#education' className='nav-item' >Education </HashLink> </li>
           <li><HashLink smooth to='/#skills' className='nav-item' >Skills </HashLink> </li>
           <li><HashLink smooth to='/#contact' className='nav-item' >Contact </HashLink> </li>

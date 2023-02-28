@@ -43,9 +43,10 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     /* color: #fff; */
-    z-index: 100;
+    z-index: 10;
+    padding: 20px;
 
   }
   
@@ -62,9 +63,11 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     /* color: #fff; */
-    z-index: 100;
+    z-index: 10;
+    padding: 20px;
+
 
   }
   
@@ -81,10 +84,16 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     /* color: #fff; */
-    z-index: 100;
+    z-index: 10;
+    padding: 20px;
+  }
 
+  .box1 p, .box2 p ,.box3 p{
+    z-index: 10000;
+    font-weight: 599.9;
+    /* background-color: aqua; */
   }
   
   .circle-education{

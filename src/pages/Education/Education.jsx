@@ -95,28 +95,28 @@ const Education = () => {
 
         <div className="education-content">
           <div className="box1" ref={box1} >
-            <h4>UnderGraduate : &emsp;</h4>
-            <p>Bannari Amman Institute Of
-              Technology (2020-2024)
-              <b>&emsp;  CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
+            <p> <b>UnderGraduate : </b>  &emsp;
+              Bannari Amman Institute Of
+              Technology (2020-2024)<br />
+              <b>CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
           </div>
 
 
           <div className="box2" ref={box2} >
-            <h4>Higher Secondary : &ensp;</h4>
-            <p>Bannari Amman Vidya Niketan,
+            <p> <b>Higher Secondary : </b> &ensp;
+              Bannari Amman Vidya Niketan,
               Matriculation Higher Secondary
               School (2018-2020)
-              &emsp;
+              <br />
               <b>Percentage : &ensp;</b> 83.67%</p>
           </div>
 
 
           <div className="box3" ref={box3} >
-            <h4>SSLC : &emsp;</h4>
-            <p>Bharathi Matriculation school
+            <p> <b>SSLC : </b> &emsp;
+              Bharathi Matriculation school
               Year of Passing: 2018
-              &emsp;
+              <br />
               <b>Percentage: &emsp;</b>90.8%
             </p>
           </div>
