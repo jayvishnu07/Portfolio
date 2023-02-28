@@ -2,6 +2,18 @@ import React, { useRef } from "react";
 import './Skills.css';
 import { useInView } from "framer-motion";
 
+//icons
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3 } from 'react-icons/di';
+import { FaReact } from 'react-icons/fa';
+import { IoLogoNodejs } from 'react-icons/io';
+import { SiExpress } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
+import { BsGithub } from 'react-icons/bs';
+import { BiGitBranch } from 'react-icons/bi';
+import { DiPython } from 'react-icons/di';
+import { IoLogoJavascript } from 'react-icons/io';
+
 const Projects = () => {
 
   // circle bar
@@ -32,9 +44,8 @@ const Projects = () => {
     <>
       <div className="main-div" id="skills" >
         <div className="left">
-
           <div className="skill-content-wrapper">
-            <div className="title" ref={line1} >HTML & CSS</div>
+            <div className="title" ref={line1} >HTML <AiFillHtml5 id="html" color="#D84924" />&ensp;& &ensp;CSS <DiCss3 color="#1A6DB1" id="css"/></div>
             <div className="progress-bar-track">
               <div className={isInViewLine1 ? "progress-bar1-seen" : "progress-bar1"}>
               <span className="tooltip">75%</span>
@@ -42,7 +53,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title" ref={line2} >ReactJs</div>
+            <div className="title" ref={line2} >ReactJs <FaReact color="#00D1F2" id="react"/> </div>
             <div className="progress-bar-track">
               <div className={isInViewLine2 ? "progress-bar2-seen" : "progress-bar2"}>
               <span className="tooltip">65%</span>
@@ -50,7 +61,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title" ref={line3} >NodeJs</div>
+            <div className="title" ref={line3} >NodeJs <IoLogoNodejs color="#7BC328"  id="node" /></div>
             <div className="progress-bar-track">
               <div className={isInViewLine3 ? "progress-bar3-seen" : "progress-bar3"}>
               <span className="tooltip">65%</span>
@@ -58,7 +69,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title" ref={line4} >ExpressJs</div>
+            <div className="title" ref={line4} >ExpressJs <SiExpress color="#000000"  id="express" /> </div>
             <div className="progress-bar-track">
               <div className={isInViewLine4 ? "progress-bar4-seen" : "progress-bar4"}>
               <span className="tooltip">70%</span>
@@ -66,7 +77,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title" ref={line5} >MongoDB</div>
+            <div className="title" ref={line5} >MongoDB <SiMongodb color="#4BA13E" id="mongo" /> </div>
             <div className="progress-bar-track">
               <div className={isInViewLine5 ? "progress-bar5-seen" : "progress-bar5"}>
               <span className="tooltip">65%</span>
@@ -74,7 +85,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title" ref={line6} >Git & Github</div>
+            <div className="title" ref={line6} >Git <BiGitBranch color="#E44C30" id="git" /> &ensp;& &ensp; Github <BsGithub color="#000000" id="github"  /></div>
             <div className="progress-bar-track">
               <div className={isInViewLine6 ? "progress-bar6-seen" : "progress-bar6"}>
               <span className="tooltip">45%</span>
@@ -151,7 +162,7 @@ const Projects = () => {
                 <circle className={isInView3 ? 'circle-clicked3' : 'circle'} cx="80" cy="80" r="70" stroke-linecap="round" />
               </svg>
             </div>
-            <div className="language">JavaScript</div>
+            <div className="language">JavaScript <IoLogoJavascript color="#E4D04B" id="js" /></div>
 
           </div>
           {/* ------------------------------------------- */}
@@ -174,7 +185,7 @@ const Projects = () => {
                 <circle className={isInView4 ? 'circle-clicked4' : 'circle'} cx="80" cy="80" r="70" stroke-linecap="round" />
               </svg>
             </div>
-            <div className="language">Python</div>
+            <div className="language">Python <DiPython color="#336D9D"  id="python" /></div>
           </div>
           {/* ------------------------------------------- */}
         </div>

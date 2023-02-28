@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import image from '../../assets/images/profile-image.png'
 import { useEffect } from 'react';
 import './LandingPage.css'
+import { HashLink } from 'react-router-hash-link';
 const LandingPage = ({timeline , ease}) => {
 
 
@@ -13,7 +14,7 @@ const LandingPage = ({timeline , ease}) => {
 
     }, [])
     return (
-        <div className="landingpage">
+        <div className="landingpage" id='home' >
             <div className="front-main-div">
                 <div className="frontpage-details-div">
 
@@ -28,7 +29,8 @@ const LandingPage = ({timeline , ease}) => {
                             }}
                         />
                     </div>
-                    <button id='get-started-button'>Get Started</button>
+                    <HashLink smooth to='/#projects'><button id='get-started-button'>Get Started</button></HashLink>
+                    
                 </div>
 
                 <div className="frontpage-image">

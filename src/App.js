@@ -9,7 +9,7 @@ import gsap, { Power3 } from 'gsap';
 import { BrowserRouter as Router } from 'react-router-dom';
 import LandingPage from './pages/LandingPage/LandingPage';
 import Skills from './pages/Skills/Skills';
-import Personal_Info from './pages/Personal_Info/Personal_Info';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   let tl1 = new gsap.timeline();
@@ -25,7 +25,7 @@ function App() {
         <Projects />
         <Education />
         <Skills />
-        <Personal_Info />
+        <Contact />
       </Router>
     </div>
   );

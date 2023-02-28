@@ -21,6 +21,8 @@
   flex-direction: column;
 }
 
+
+
 .skill-content-wrapper {
   background-color: #fff;
   width: 80%;
@@ -37,6 +39,14 @@
 
 .title {
   font-weight: 800;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#html , #css, #react, #node , #express, #mongo,#git,#github{
+  position: relative !important;
+  margin: 0 5px 0 5px ;
 }
 
 .progress-bar-track{
@@ -237,8 +247,15 @@
 
 .language {
   margin: 20px;
-  font-weight: 500;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
 }
+#python , #js {
+  position:  relative !important;
+  margin: 0 5px 0 5px;
+}
+
 
 #number {
   font-weight: 800;
@@ -271,7 +288,7 @@
 
 .circle {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: brown;
   stroke-width: 20px;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
@@ -279,7 +296,7 @@
 
 .circle-clicked1 {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: brown;
   stroke-width: 20px;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
@@ -288,7 +305,7 @@
 
 .circle-clicked2 {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: brown;
   stroke-width: 20px;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
@@ -297,7 +314,7 @@
 
 .circle-clicked3 {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: brown;
   stroke-width: 20px;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
@@ -306,7 +323,7 @@
 
 .circle-clicked4 {
   fill: none;
-  stroke: url(#GradientColor);
+  stroke: brown;
   stroke-width: 20px;
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
