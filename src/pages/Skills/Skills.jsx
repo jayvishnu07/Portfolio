@@ -4,6 +4,7 @@ import { useInView } from "framer-motion";
 
 const Projects = () => {
 
+  // circle bar
   const bar1 = useRef(null)
   const bar2 = useRef(null)
   const bar3 = useRef(null)
@@ -12,45 +13,72 @@ const Projects = () => {
   const isInView2 = useInView(bar2)
   const isInView3 = useInView(bar3)
   const isInView4 = useInView(bar4)
+
+  //linear bar
+  const line1 = useRef(null)
+  const line2 = useRef(null)
+  const line3 = useRef(null)
+  const line4 = useRef(null)
+  const line5 = useRef(null)
+  const line6 = useRef(null)
+  const isInViewLine1 = useInView(line1)
+  const isInViewLine2 = useInView(line2)
+  const isInViewLine3 = useInView(line3)
+  const isInViewLine4 = useInView(line4)
+  const isInViewLine5 = useInView(line5)
+  const isInViewLine6 = useInView(line6)
+
   return (
     <>
       <div className="main-div" id="skills" >
         <div className="left">
 
           <div className="skill-content-wrapper">
-            <div className="title">HTML & CSS</div>
+            <div className="title" ref={line1} >HTML & CSS</div>
             <div className="progress-bar-track">
-              <div className="progress-bar1"></div>
+              <div className={isInViewLine1 ? "progress-bar1-seen" : "progress-bar1"}>
+              <span className="tooltip">75%</span>
+              </div>
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title">ReactJs</div>
+            <div className="title" ref={line2} >ReactJs</div>
             <div className="progress-bar-track">
-              <div className="progress-bar2"></div>
+              <div className={isInViewLine2 ? "progress-bar2-seen" : "progress-bar2"}>
+              <span className="tooltip">65%</span>
+              </div>
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title">NodeJs</div>
+            <div className="title" ref={line3} >NodeJs</div>
             <div className="progress-bar-track">
-              <div className="progress-bar3"></div>
+              <div className={isInViewLine3 ? "progress-bar3-seen" : "progress-bar3"}>
+              <span className="tooltip">65%</span>
+              </div>
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title">ExpressJs</div>
+            <div className="title" ref={line4} >ExpressJs</div>
             <div className="progress-bar-track">
-              <div className="progress-bar4"></div>
+              <div className={isInViewLine4 ? "progress-bar4-seen" : "progress-bar4"}>
+              <span className="tooltip">70%</span>
+              </div>
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title">MongoDB</div>
+            <div className="title" ref={line5} >MongoDB</div>
             <div className="progress-bar-track">
-              <div className="progress-bar5"></div>
+              <div className={isInViewLine5 ? "progress-bar5-seen" : "progress-bar5"}>
+              <span className="tooltip">65%</span>
+              </div>
             </div>
           </div>
           <div className="skill-content-wrapper">
-            <div className="title">Git & Github</div>
+            <div className="title" ref={line6} >Git & Github</div>
             <div className="progress-bar-track">
-              <div className="progress-bar6"></div>
+              <div className={isInViewLine6 ? "progress-bar6-seen" : "progress-bar6"}>
+              <span className="tooltip">45%</span>
+              </div>
             </div>
           </div>
 
