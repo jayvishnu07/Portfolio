@@ -138,16 +138,16 @@ const Projects = () => {
             messages using Socket.io and ReactJs
             Chat refers to the process of communicating, interacting and/or exchanging messages over the Internet.
             It involves two or more individuals that communicate through a chat-enabled service or software.
+            <a href="google.com" target="_blank" className='live-btn' >
+              <motion.button
+                className='seelive-button'
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+                transition={{ type: "just", stiffness: 400, damping: 17 }}
+              >See Live
+              </motion.button>
+            </a>
           </p>
-          <a href="google.com" target="_blank" className='live-btn' >
-            <motion.button
-              className='seelive-button'
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              transition={{ type: "just", stiffness: 400, damping: 17 }}
-            >See Live
-            </motion.button>
-          </a>
         </div>
       </div>
 
@@ -168,19 +168,20 @@ const Projects = () => {
         {/* description */}
 
         <div className='projects-details-div' ref={square4} >
-          Real Time chatting application for sharing our
-          messages using Socket.io and ReactJs
-          Chat refers to the process of communicating, interacting and/or exchanging messages over the Internet.
-          It involves two or more individuals that communicate through a chat-enabled service or software.
-          <a href="google.com" target="_blank" className='live-btn' >
-            <motion.button
-              className='seelive-button'
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              transition={{ type: "just", stiffness: 400, damping: 17 }}
-            >See Live
-            </motion.button>
-          </a>
+          <p> Real Time chatting application for sharing our
+            messages using Socket.io and ReactJs
+            Chat refers to the process of communicating, interacting and/or exchanging messages over the Internet.
+            It involves two or more individuals that communicate through a chat-enabled service or software.
+            <a href="google.com" target="_blank" className='live-btn' >
+              <motion.button
+                className='seelive-button'
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+                transition={{ type: "just", stiffness: 400, damping: 17 }}
+              >See Live
+              </motion.button>
+            </a>
+          </p>
         </div>
       </div>
       <div className="circle-project"></div>

@@ -87,7 +87,7 @@ const Contact = () => {
                 <div className="contact-right-details-item"><div className="text-primary" >Degree: </div><div className="text-secondary">UnderGraduate <FaGraduationCap id="contact-item-logo" color="#000000" /></div></div>
                 <div className="contact-right-details-item"><div className="text-primary" >Phone: </div><div className="text-secondary">+91 6379136180 <FcPhoneAndroid id="contact-item-logo" /></div></div>
                 <div className="contact-right-details-item"><div className="text-primary" >Email: </div><div className="text-secondary">jaivishnu063@gmail.com <MdEmail id="contact-item-logo" color="#188ED4" /></div></div>
-                <div className="contact-right-details-item"><div className="text-primary" >Address: </div><div className="text-secondary">35,Nehru Street, Samy Nagar, D.G.Pudur, Erode - 638503.<FcHome id="contact-item-logo" /></div></div>
+                <div className="contact-right-details-item"><div className="text-primary" >Address: </div><div className="text-secondary address ">35,Nehru Street, Samy Nagar, D.G.Pudur, Erode - 638503.<FcHome id="contact-item-logo" /></div></div>
               </div>
             </div>
           </div>

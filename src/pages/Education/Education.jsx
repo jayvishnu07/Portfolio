@@ -22,15 +22,15 @@ const Education = () => {
     const el1 = box1.current
     const el2 = box2.current
     const el3 = box3.current
-    gsap.fromTo(el1, { x: 1500, opacity: 0, scale: 0.6 },
+    gsap.fromTo(el1, { x: 1500, opacity: 0, scale: 0.8 },
       {
-        x: 0,
-        opacity: 1,
+        x: 10,
+        opacity: 1.4,
         scale: 1,
         scrollTrigger: {
           trigger: el1,
-          start: "top 200%",
-          stop: "top  190%",
+          start: "top 150%",
+          stop: "top  140%",
           scrub: 3,
           toggleActions: "restart none none none ",
           // markers: {
@@ -41,9 +41,9 @@ const Education = () => {
           // }
         }
       })
-    gsap.fromTo(el2, { x: 900, opacity: 0, scale: 0.6 },
+    gsap.fromTo(el2, { x: 900, opacity: 0, scale: 0.8 },
       {
-        x: 0,
+        x: 10,
         opacity: 1,
         scale: 1,
         scrollTrigger: {
@@ -62,13 +62,13 @@ const Education = () => {
       })
     gsap.fromTo(el3, { x: 600, opacity: 0, scale: 0.6 },
       {
-        x: 0,
+        x: 10,
         opacity: 1,
         scale: 1,
         scrollTrigger: {
           trigger: el3,
-          start: "top 210%",
-          stop: "top  200%",
+          start: "top 280%",
+          stop: "top  270%",
           scrub: 3,
           toggleActions: "restart none none none ",
           // markers: {
@@ -85,7 +85,6 @@ const Education = () => {
 
   return (
     <div className='education-main-div' id='education'  >
-
       <div className="edu-wrapper">
         <div className="edu-line">
           <div className="line-circle"></div>
@@ -95,7 +94,7 @@ const Education = () => {
 
         <div className="education-content">
           <div className="box1" ref={box1} >
-            <p> <b>UnderGraduate : </b>  &emsp;
+            <p className='content' > <b>UnderGraduate : </b>  &emsp;
               Bannari Amman Institute Of
               Technology (2020-2024)<br />
               <b>CGPA : &ensp;</b> 9.06   (Upto 5th semester)</p>
@@ -103,7 +102,7 @@ const Education = () => {
 
 
           <div className="box2" ref={box2} >
-            <p> <b>Higher Secondary : </b> &ensp;
+            <p className='content' > <b>Higher Secondary : </b> &ensp;
               Bannari Amman Vidya Niketan,
               Matriculation Higher Secondary
               School (2018-2020)
@@ -113,7 +112,7 @@ const Education = () => {
 
 
           <div className="box3" ref={box3} >
-            <p> <b>SSLC : </b> &emsp;
+            <p className='content' > <b>SSLC : </b> &emsp;
               Bharathi Matriculation school
               Year of Passing: 2018
               <br />

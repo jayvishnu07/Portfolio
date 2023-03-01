@@ -22,7 +22,7 @@ const LandingPage = ({timeline , ease}) => {
                     <div className='typewriter'>
                         <Typewriter
                             options={{
-                                strings: ["HI THERE . . . THIS IS JAYAVISHNUSIVAM R", "WEB DEVELOPER . . . "],
+                                strings: ["HI THERE . . . ","THIS IS JAYAVISHNUSIVAM R", "WEB DEVELOPER . . . "],
                                 autoStart: true,
                                 loop: true,
                                 delay: 150

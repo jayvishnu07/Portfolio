@@ -87,8 +87,12 @@
     height: 50vh;
   }
 
+  .frontpage-details-div{
+    width: 65%;
+  }
+
   #cartoon-img {
-    width: 90%;
+    width: 100%;
   }
 
   #welcome-title {
@@ -97,19 +101,21 @@
   }
 
   .typewriter {
-    font-size: 1rem;
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5%;
-    width: 90%;
+    width: 100%;
   }
 
   #get-started-button {
-    padding: 10px 15px 10px 15px;
+    padding: 8px 12px 8px 12px;
     border-radius: 30px;
     margin: 30px 0 0 0;
   }
-
+.frontpage-details-div button{
+  font-size: 13px;
+}
 
 }
