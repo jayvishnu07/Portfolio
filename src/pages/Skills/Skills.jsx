@@ -108,7 +108,7 @@ const Projects = () => {
               <div className="title" ref={line7} >C</div>
               <div className="progress-bar-track">
                 <div className={isInViewLine7 ? "progress-bar7-seen" : "progress-bar7"}>
-                  <span className="tooltip">45%</span>
+                  <span className="tooltip">70%</span>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ const Projects = () => {
               <div className="title" ref={line8} >C++</div>
               <div className="progress-bar-track">
                 <div className={isInViewLine8 ? "progress-bar8-seen" : "progress-bar8"}>
-                  <span className="tooltip">45%</span>
+                  <span className="tooltip">65%</span>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Projects = () => {
               <div className="title" ref={line9} >JavaScript <IoLogoJavascript color="#E4D04B" id="git" /></div>
               <div className="progress-bar-track">
                 <div className={isInViewLine9 ? "progress-bar9-seen" : "progress-bar9"}>
-                  <span className="tooltip">45%</span>
+                  <span className="tooltip">55%</span>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ const Projects = () => {
               <div className="title" ref={line10} >Python <DiPython color="#336D9D" id="git" /></div>
               <div className="progress-bar-track">
                 <div className={isInViewLine10 ? "progress-bar10-seen" : "progress-bar10"}>
-                  <span className="tooltip">45%</span>
+                  <span className="tooltip">55%</span>
                 </div>
               </div>
             </div>

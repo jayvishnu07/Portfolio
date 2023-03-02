@@ -24,7 +24,7 @@ const Education = () => {
     const el3 = box3.current
     gsap.fromTo(el1, { x: 1500, opacity: 0, scale: 0.8 },
       {
-        x: 10,
+        x: -10,
         opacity: 1.4,
         scale: 1,
         scrollTrigger: {
@@ -43,7 +43,7 @@ const Education = () => {
       })
     gsap.fromTo(el2, { x: 900, opacity: 0, scale: 0.8 },
       {
-        x: 10,
+        x: -10,
         opacity: 1,
         scale: 1,
         scrollTrigger: {
@@ -62,7 +62,7 @@ const Education = () => {
       })
     gsap.fromTo(el3, { x: 600, opacity: 0, scale: 0.6 },
       {
-        x: 10,
+        x: 0,
         opacity: 1,
         scale: 1,
         scrollTrigger: {

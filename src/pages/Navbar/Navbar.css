@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: flex-end;
     background: rgba(117, 98, 98, 0);
-
     position: fixed;
     top: 0;
     width: 100%;
@@ -48,11 +47,8 @@ nav {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        background: rgba(117, 98, 98, 0);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(0.6px);
-        -webkit-backdrop-filter: blur(0.6px);
-        border-bottom: 1px solid rgba(208, 208, 208, 0.1);
+        background: #fff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
         position: fixed;
         top: 0;
         width: 100%;

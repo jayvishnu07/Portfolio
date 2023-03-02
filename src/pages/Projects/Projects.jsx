@@ -119,26 +119,23 @@ const Projects = () => {
 
       {/* Chat Application */}
       <div className="projects-i-d-wrapper">
-        <motion.div
+        <div
           className="projects-image-div"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.8 }}
-          transition={{ type: "just", stiffness: 200, damping: 17 }}
           ref={square1}
         >
           <img src={chat} alt="chat" />
-        </motion.div>
+        </div>
 
 
         {/* description */}
 
         <div className='projects-details-div' ref={square2} >
           <p>
-            Real Time chatting application for sharing our
-            messages using Socket.io and ReactJs
+            A MERN STACK Real Time chatting application for sharing our
+            messages using SOCKET.IO
             Chat refers to the process of communicating, interacting and/or exchanging messages over the Internet.
             It involves two or more individuals that communicate through a chat-enabled service or software.
-            <a href="google.com" target="_blank" className='live-btn' >
+            <a href="https://chat-app-jvs-production.up.railway.app/" target="_blank" className='live-btn' >
               <motion.button
                 className='seelive-button'
                 whileHover={{ scale: 1.1 }}
@@ -154,25 +151,20 @@ const Projects = () => {
       {/* Expense Tracker */}
 
       <div className="projects-i-d-wrapper">
-        <motion.div
+        <div
           className="projects-image-div"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.8 }}
-          transition={{ type: "just", stiffness: 200, damping: 17 }}
           ref={square3}
         >
           <img src={expense} alt="chat" />
-        </motion.div>
+        </div>
 
 
         {/* description */}
 
         <div className='projects-details-div' ref={square4} >
-          <p> Real Time chatting application for sharing our
-            messages using Socket.io and ReactJs
-            Chat refers to the process of communicating, interacting and/or exchanging messages over the Internet.
-            It involves two or more individuals that communicate through a chat-enabled service or software.
-            <a href="google.com" target="_blank" className='live-btn' >
+          <p> Digital Expense Tracker using REACTJS and FIREBASE that will helps you take control of your finances and stay on budget.
+           To have financial goals. It makes you unaware of what is happening with your money. You can make your money grow by tracking them.
+            <a href="https://expense-tracker-v2-10.firebaseapp.com/login" target="_blank" className='live-btn' >
               <motion.button
                 className='seelive-button'
                 whileHover={{ scale: 1.1 }}

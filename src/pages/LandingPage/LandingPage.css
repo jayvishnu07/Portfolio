@@ -12,20 +12,24 @@
 }
 
 .landingpage {
-  background-color: #F5F5F5;
+  background-color: rgba(0, 0, 0, 0.881);
   overflow-x: hidden;
   overflow-y: scroll;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
 }
 
 
 .front-main-div {
   width: 100vw;
   height: 100vh;
-  background-color: #212121;
+  background-color: #F5F5F5;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom-right-radius: 65%;
+  border-top-left-radius: 65%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .frontpage-details-div {
@@ -48,16 +52,18 @@
 #cartoon-img {
   width: 70%;
   aspect-ratio: 1;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+  filter: drop-shadow(-10px -10px 50px rgba(0, 0, 0, 0.459));
 }
 
 #welcome-title {
-  color: #fff;
+  color: #000000;
   margin: 0 0 30px 0;
   font-size: 1.5rem;
 }
 
 .typewriter {
-  color: #fff;
+  color: #000000;
   font-size: 2rem;
 }
 
@@ -65,17 +71,17 @@
   padding: 15px 25px 15px 25px;
   border-radius: 30px;
   margin: 40px 0 0 0;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   background-color: transparent;
-  color: #fff;
+  color: #000000;
   outline: none;
   font-weight: 700;
   cursor: pointer;
 }
 
 #get-started-button:hover {
-  background-color: #fff;
-  color: black;
+  background-color: #000000;
+  color: #fff ;
   transition: .4s;
 }
 
@@ -96,7 +102,7 @@
   }
 
   #welcome-title {
-    color: #fff;
+    color: #000000;
     font-size: 1rem;
   }
 

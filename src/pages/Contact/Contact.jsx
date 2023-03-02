@@ -53,7 +53,7 @@ const Contact = () => {
                 ><SiLeetcode id='social-item-logo' /> <span class="tooltiptext">Leetcode</span>
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://twitter.com/Jaivishnu063"
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
@@ -62,7 +62,7 @@ const Contact = () => {
                 ><FaTwitter id='social-item-logo' /> <span class="tooltiptext">Twitter</span>
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://instagram.com/_jay_vishnu__?igshid=YmJhNjkzNzY="
                   target="_blank"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
