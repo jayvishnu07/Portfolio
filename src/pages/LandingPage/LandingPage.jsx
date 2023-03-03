@@ -1,6 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import image from '../../assets/images/profile-image.png'
+import resume from '../../assets/resume/JAYAVISHNUSIVAM R.pdf'
 import { useEffect } from 'react';
 import './LandingPage.css'
 import { HashLink } from 'react-router-hash-link';
@@ -29,7 +30,7 @@ const LandingPage = ({timeline , ease}) => {
                             }}
                         />
                     </div>
-                    <HashLink smooth to='/#projects'><button id='get-started-button'>Get Started</button></HashLink>
+                    <a href={resume} target='_blank' ><button id='get-started-button'>Check out my Resume</button></a>
                     
                 </div>
 
